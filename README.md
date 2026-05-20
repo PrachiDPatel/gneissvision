@@ -1,10 +1,16 @@
-# GneissVision
+<div align="center">
+
+# 🪨 GneissVision 🪨
 
 Petrographic thin section image pair → Claude Vision → mineral identification + optical reasoning.
 
-Built from my love for petrographic thin sections! Feed it a PPL/XPL image pair and it tells you what mineral you're looking at, why, and what to check if it's unsure.
+Built for my research at UGA's Center for Applied Isotope Studies. Feed it a PPL/XPL image pair and it tells you what mineral you're looking at, why, and what to check if it's unsure.
+
+---
 
 ## How it works
+
+</div>
 
 1. Load a plane-polarized light (PPL) + cross-polarized light (XPL) image pair of a thin section
 2. Claude Vision analyzes optical properties — color, pleochroism, cleavage, extinction angle, birefringence
@@ -13,7 +19,11 @@ Built from my love for petrographic thin sections! Feed it a PPL/XPL image pair 
 
 Starts from zero labeled data. The knowledge base (`minerals.json`) encodes optical mineralogy rules and carries most of the weight until enough corrections accumulate.
 
-## Stack
+<div align="center">
+
+## 💻 Stack 💻
+
+</div>
 
 - Python
 - Anthropic Claude Vision API
