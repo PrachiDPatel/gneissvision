@@ -1,0 +1,574 @@
+{
+  "_meta": {
+    "version": "0.1",
+    "focus": "igneous and metamorphic rocks, REE accessories",
+    "thickness_um": 30,
+    "notes": "Optical properties at standard 30 micron section thickness"
+  },
+
+  "major_minerals": {
+
+    "quartz": {
+      "formula": "SiO2",
+      "crystal_system": "trigonal",
+      "PPL": {
+        "color": "colorless",
+        "pleochroism": "none",
+        "relief": "low",
+        "cleavage": "none — conchoidal fracture",
+        "alteration": "none (very stable)",
+        "habit": "anhedral to subhedral"
+      },
+      "XPL": {
+        "birefringence": "low (0.009)",
+        "interference_color": "1st order grey to white",
+        "extinction": "parallel",
+        "twinning": "none",
+        "undulatory": "common in metamorphic rocks — diagnostic of crystal-plastic deformation"
+      },
+      "distinguishing_features": [
+        "Never alters to sericite (use this to separate from feldspar)",
+        "No twinning (use this to separate from plagioclase)",
+        "Undulatory extinction = rock has been deformed",
+        "Absence of cleavage is key — always conchoidal fracture"
+      ],
+      "common_rocks": ["granite", "granodiorite", "quartzite", "schist", "gneiss", "rhyolite"],
+      "confusion_minerals": ["K-feldspar", "plagioclase"]
+    },
+
+    "k_feldspar": {
+      "formula": "KAlSi3O8",
+      "varieties": ["orthoclase", "sanidine", "microcline"],
+      "crystal_system": "monoclinic/triclinic",
+      "PPL": {
+        "color": "colorless to cloudy",
+        "pleochroism": "none",
+        "relief": "low",
+        "cleavage": "two directions at ~90°",
+        "alteration": "sericite (fine muscovite), kaolinite — common, often patchy",
+        "habit": "subhedral to euhedral"
+      },
+      "XPL": {
+        "birefringence": "low (0.006–0.007)",
+        "interference_color": "1st order grey-white",
+        "extinction": "parallel (orthoclase), oblique (microcline)",
+        "twinning": "Carlsbad (two large domains) — orthoclase; tartan/cross-hatch grid — microcline",
+        "undulatory": "rare"
+      },
+      "distinguishing_features": [
+        "Microcline tartan twinning is unmistakable — grid pattern",
+        "Carlsbad twin = two halves of grain extinguish at different positions",
+        "Perthite = Na-feldspar exsolution lamellae visible as blebs/films",
+        "Sericite alteration more pervasive than in quartz"
+      ],
+      "common_rocks": ["granite", "syenite", "rhyolite", "pegmatite"],
+      "confusion_minerals": ["quartz", "plagioclase"]
+    },
+
+    "plagioclase": {
+      "formula": "NaAlSi3O8 to CaAl2Si2O8",
+      "series": "albite (Ab) to anorthite (An)",
+      "crystal_system": "triclinic",
+      "PPL": {
+        "color": "colorless",
+        "pleochroism": "none",
+        "relief": "low to moderate (increases with An content)",
+        "cleavage": "two directions at ~90°",
+        "alteration": "sericite, epidote, zoisite (more calcic = more alteration)",
+        "habit": "tabular, often lath-shaped in volcanic rocks"
+      },
+      "XPL": {
+        "birefringence": "low (0.007–0.013, increases with An)",
+        "interference_color": "1st order grey-white",
+        "extinction": "inclined (angle increases with An content)",
+        "twinning": "POLYSYNTHETIC — parallel stripes across grain, most diagnostic feature",
+        "undulatory": "uncommon"
+      },
+      "distinguishing_features": [
+        "Polysynthetic twinning is definitive — no other common mineral shows this",
+        "An content estimation: higher extinction angle, more calcic",
+        "Zoning common: concentric compositional shells visible in XPL",
+        "More alteration than K-spar in hydrothermal/metamorphic settings"
+      ],
+      "common_rocks": ["granite", "diorite", "gabbro", "andesite", "basalt", "tonalite", "trondhjemite"],
+      "confusion_minerals": ["K-feldspar", "quartz"]
+    },
+
+    "biotite": {
+      "formula": "K(Mg,Fe)3AlSi3O10(OH)2",
+      "crystal_system": "monoclinic",
+      "PPL": {
+        "color": "brown, reddish-brown, greenish-brown",
+        "pleochroism": "STRONG — brown/orange when cleavage is visible, pale yellow in birds-eye view",
+        "relief": "moderate",
+        "cleavage": "one perfect (basal) cleavage",
+        "alteration": "chlorite (greenish, lower birefringence), vermiculite",
+        "habit": "flaky, platy — books or fish-scale texture"
+      },
+      "XPL": {
+        "birefringence": "moderate-high (0.03–0.05)",
+        "interference_color": "2nd-3rd order bright colors",
+        "extinction": "parallel to cleavage",
+        "twinning": "none typical",
+        "special": "birds-eye extinction when viewed down c-axis — circular extinction pattern"
+      },
+      "distinguishing_features": [
+        "Strong brown pleochroism is the fastest identifier",
+        "Radiation halos around included zircon grains — look for tiny dark rings",
+        "Chloritization (alteration to chlorite) very common in low-grade metamorphism",
+        "Apatite inclusions as needles parallel to cleavage in some igneous biotites"
+      ],
+      "common_rocks": ["granite", "granodiorite", "diorite", "schist", "gneiss", "phyllite"],
+      "confusion_minerals": ["muscovite (colorless, higher birefringence)", "hornblende (two cleavages)"]
+    },
+
+    "muscovite": {
+      "formula": "KAl2AlSi3O10(OH)2",
+      "crystal_system": "monoclinic",
+      "PPL": {
+        "color": "colorless",
+        "pleochroism": "none to very weak",
+        "relief": "low-moderate",
+        "cleavage": "one perfect (basal) cleavage",
+        "alteration": "stable",
+        "habit": "flaky, platy"
+      },
+      "XPL": {
+        "birefringence": "high (0.036–0.049)",
+        "interference_color": "2nd-3rd order BRIGHT — pink, green, orange — much higher than quartz",
+        "extinction": "parallel to cleavage",
+        "twinning": "none typical"
+      },
+      "distinguishing_features": [
+        "Colorless PPL + very bright XPL colors = muscovite (vs biotite which is brown)",
+        "The high birefringence vs quartz/feldspar is instantly recognizable",
+        "Sericite = fine-grained muscovite replacing feldspar (alteration product)",
+        "Common in pegmatites as large books"
+      ],
+      "common_rocks": ["granite", "pegmatite", "schist", "phyllite", "quartzite"],
+      "confusion_minerals": ["biotite (colored PPL)", "talc (very similar — needs habit/context)"]
+    },
+
+    "hornblende": {
+      "formula": "Ca2(Mg,Fe,Al)5(Al,Si)8O22(OH)2",
+      "crystal_system": "monoclinic",
+      "PPL": {
+        "color": "green to brown-green",
+        "pleochroism": "moderate — green perpendicular to c-axis, brownish parallel",
+        "relief": "moderate-high",
+        "cleavage": "TWO DIRECTIONS AT 60/120° — critical for separating from pyroxene",
+        "alteration": "actinolite, chlorite",
+        "habit": "prismatic, often diamond cross-section"
+      },
+      "XPL": {
+        "birefringence": "moderate (0.014–0.026)",
+        "interference_color": "1st-2nd order, often green-yellow",
+        "extinction": "inclined (15-25° from cleavage)",
+        "twinning": "simple twins along {100}"
+      },
+      "distinguishing_features": [
+        "60/120° cleavage angle is the definitive separator from pyroxene (which is ~90°)",
+        "Green-brown pleochroism — more pleochroic than pyroxene",
+        "Diamond-shaped cross-sections (looking down c-axis) common",
+        "Common in diorites, andesites — coexisting with plagioclase"
+      ],
+      "common_rocks": ["diorite", "tonalite", "granodiorite", "amphibolite", "hornblende schist"],
+      "confusion_minerals": ["augite (90° cleavage)", "biotite (one cleavage)"]
+    },
+
+    "augite": {
+      "formula": "Ca(Mg,Fe,Al)(Si,Al)2O6",
+      "crystal_system": "monoclinic",
+      "PPL": {
+        "color": "pale green to pale brown",
+        "pleochroism": "weak",
+        "relief": "moderate-high",
+        "cleavage": "TWO DIRECTIONS AT ~90° — critical diagnostic vs hornblende",
+        "alteration": "hornblende (uralitization), actinolite, chlorite",
+        "habit": "short prismatic, square/octagonal cross-sections"
+      },
+      "XPL": {
+        "birefringence": "moderate (0.018–0.033)",
+        "interference_color": "2nd order — brighter than hornblende typically",
+        "extinction": "inclined (35-48° — larger than hornblende)",
+        "twinning": "sector twins (hourglass pattern), simple twins"
+      },
+      "distinguishing_features": [
+        "90° cleavage is THE key — spend time measuring the angle",
+        "Weaker pleochroism than hornblende",
+        "Square/octagonal sections when cut perpendicular to c-axis",
+        "Uralitization: alteration corona of hornblende/actinolite around augite core"
+      ],
+      "common_rocks": ["gabbro", "basalt", "norite", "pyroxenite", "eclogite"],
+      "confusion_minerals": ["hornblende (60° cleavage)", "orthopyroxene (different composition)"]
+    },
+
+    "olivine": {
+      "formula": "(Mg,Fe)2SiO4",
+      "series": "forsterite (Fo) to fayalite (Fa)",
+      "crystal_system": "orthorhombic",
+      "PPL": {
+        "color": "colorless to pale green (Fe-rich)",
+        "pleochroism": "none to weak",
+        "relief": "HIGH",
+        "cleavage": "poor/absent — irregular fractures",
+        "alteration": "serpentine (mesh texture), iddingsite (reddish), chlorite",
+        "habit": "anhedral to subhedral, rounded"
+      },
+      "XPL": {
+        "birefringence": "high (0.035–0.052)",
+        "interference_color": "high 2nd - 3rd order bright colors",
+        "extinction": "parallel",
+        "twinning": "none"
+      },
+      "distinguishing_features": [
+        "Serpentinization (green mesh cracks) is the most diagnostic feature of former olivine",
+        "High relief + no cleavage + high birefringence",
+        "Iddingsite alteration (reddish-brown rim) in volcanic olivines",
+        "If fully serpentinized, original olivine identified only by pseudomorphic texture"
+      ],
+      "common_rocks": ["peridotite", "dunite", "gabbro", "basalt", "komatiite"],
+      "confusion_minerals": ["orthopyroxene (has cleavage)", "diopside (two cleavages at 90°)"]
+    },
+
+    "garnet": {
+      "formula": "(Ca,Mg,Fe,Mn)3(Al,Fe,Cr)2Si3O12",
+      "varieties": ["almandine (Fe-Al)", "pyrope (Mg-Al)", "grossular (Ca-Al)", "spessartine (Mn-Al)", "andradite (Ca-Fe)", "uvarovite (Ca-Cr)"],
+      "crystal_system": "cubic (isometric)",
+      "PPL": {
+        "color": "pink-red (almandine), colorless-pale (pyrope, grossular), orange-yellow (spessartine), green (uvarovite, andradite)",
+        "pleochroism": "NONE — isotropic mineral",
+        "relief": "HIGH",
+        "cleavage": "none — conchoidal/irregular fracture",
+        "alteration": "chlorite, hornblende halos",
+        "habit": "euhedral 12- or 24-faced dodecahedra — distinctive rounded polygons"
+      },
+      "XPL": {
+        "birefringence": "ZERO — completely isotropic",
+        "interference_color": "COMPLETELY BLACK — stays dark at all stage rotations",
+        "extinction": "n/a — always extinct",
+        "twinning": "none"
+      },
+      "distinguishing_features": [
+        "ISOTROPIC (black in XPL at all rotations) is definitive",
+        "High relief + distinctive euhedral habit",
+        "Pink-red color in PPL for almandine (most common metamorphic garnet)",
+        "Fractures/inclusions often show radiating pattern around center"
+      ],
+      "common_rocks": ["schist", "gneiss", "eclogite", "skarn", "granite (as accessory)"],
+      "confusion_minerals": ["spinel (also isotropic, but different habit)", "magnetite (opaque)"]
+    },
+
+    "epidote": {
+      "formula": "Ca2(Al,Fe)3Si3O12(OH)",
+      "crystal_system": "monoclinic",
+      "PPL": {
+        "color": "pale yellow to pistachio green",
+        "pleochroism": "moderate — colorless/yellow/green",
+        "relief": "HIGH",
+        "cleavage": "one perfect cleavage",
+        "alteration": "stable",
+        "habit": "prismatic, striated"
+      },
+      "XPL": {
+        "birefringence": "moderate (0.012–0.049)",
+        "interference_color": "ANOMALOUS — blue, greenish, or Berlin blue colors that shouldn't occur at this birefringence",
+        "extinction": "inclined",
+        "twinning": "none common"
+      },
+      "distinguishing_features": [
+        "Anomalous interference colors (blue-green in XPL) are nearly unique to epidote group",
+        "Pistachio green PPL color is characteristic",
+        "High relief in PPL",
+        "Common as alteration product of calcic plagioclase in metamorphic rocks"
+      ],
+      "common_rocks": ["greenschist", "amphibolite", "skarn", "altered gabbro/diorite"],
+      "confusion_minerals": ["zoisite (orthorhombic polymorph, lower birefringence)", "clinozoisite"]
+    },
+
+    "calcite": {
+      "formula": "CaCO3",
+      "crystal_system": "trigonal",
+      "PPL": {
+        "color": "colorless",
+        "pleochroism": "none",
+        "relief": "low to moderate (changes with rotation — high relief flash at extinction)",
+        "cleavage": "THREE perfect rhombohedral cleavages — can see multiple orientations",
+        "alteration": "dolomitization",
+        "habit": "variable — anhedral in marble, rhombic in veins"
+      },
+      "XPL": {
+        "birefringence": "VERY HIGH (0.172) — highest of common minerals",
+        "interference_color": "Very high order — pearl/pastel/milky — washed-out high-order colors",
+        "extinction": "symmetric to rhombohedral cleavage",
+        "twinning": "polysynthetic twin lamellae (deformation twins in marble) — different from plagioclase twins"
+      },
+      "distinguishing_features": [
+        "Extreme birefringence (twinkling/high relief flash on rotation) is definitive",
+        "Three cleavage directions visible in various orientations",
+        "Effervescence with HCl in hand sample",
+        "In carbonatites: abundant calcite + REE accessories = important deposit type"
+      ],
+      "common_rocks": ["marble", "limestone", "carbonatite", "veins in igneous/metamorphic"],
+      "confusion_minerals": ["dolomite (very similar, but slightly higher birefringence)"]
+    }
+  },
+
+  "ree_accessories": {
+
+    "monazite": {
+      "formula": "(Ce,La,Nd,Th)PO4",
+      "crystal_system": "monoclinic",
+      "economic_importance": "PRIMARY — light REE ore (La, Ce, Nd, Pr) + Th source. Used for U-Th-Pb geochronology.",
+      "typical_size_um": "10–200",
+      "PPL": {
+        "color": "yellow to yellow-brown",
+        "pleochroism": "weak — yellow to colorless",
+        "relief": "HIGH",
+        "cleavage": "poor",
+        "alteration": "alteration corona common — secondary REE phosphates at margins",
+        "habit": "small rounded to subhedral, ovoid"
+      },
+      "XPL": {
+        "birefringence": "moderate-high (0.045–0.075)",
+        "interference_color": "2nd-3rd order — high colors, may be anomalous due to Th content",
+        "extinction": "inclined"
+      },
+      "distinguishing_features": [
+        "Yellow-brown PPL color + high relief + small size",
+        "Often occurs as inclusions in biotite, garnet, apatite",
+        "Radiation damage halos in surrounding mineral (Th-bearing)",
+        "CRITICAL: requires EDS/TIMA-X to confirm vs. xenotime or other phosphates",
+        "Alteration corona (Th-bearing monazite reacts with fluids) very diagnostic"
+      ],
+      "deposit_types": ["granite", "granodiorite", "pegmatite", "placer sand deposits"],
+      "countries_of_interest": ["Australia", "India", "Brazil", "USA (Mountain Pass region)", "China"]
+    },
+
+    "xenotime": {
+      "formula": "YPO4",
+      "crystal_system": "tetragonal",
+      "economic_importance": "PRIMARY — heavy REE ore (Y, Yb, Er, Ho) + Dy source. Also geochronology.",
+      "typical_size_um": "10–100",
+      "PPL": {
+        "color": "yellow-brown to reddish-brown",
+        "pleochroism": "moderate",
+        "relief": "HIGH (similar to zircon)",
+        "cleavage": "perfect in one direction",
+        "habit": "prismatic, similar to zircon"
+      },
+      "XPL": {
+        "birefringence": "HIGH (0.077–0.110) — HIGHER than zircon — key distinction",
+        "interference_color": "high-order bright colors, brighter than zircon",
+        "extinction": "parallel"
+      },
+      "distinguishing_features": [
+        "Higher birefringence than zircon is the optical separation (difficult without measurement)",
+        "Warmer brown color than zircon in PPL",
+        "EDS required to definitively confirm",
+        "Often overgrowths on zircon cores in metamorphic rocks"
+      ],
+      "deposit_types": ["granite", "pegmatite", "placer"],
+      "confusion_minerals": ["zircon (lower birefringence, more colorless)"]
+    },
+
+    "zircon": {
+      "formula": "ZrSiO4",
+      "crystal_system": "tetragonal",
+      "economic_importance": "ZrO2 production, geochronology (U-Pb), contains U/Th/Hf and trace REEs. HfO2 from zircon used in semiconductor gate dielectrics.",
+      "typical_size_um": "10–300",
+      "PPL": {
+        "color": "colorless to pale yellow/pink",
+        "pleochroism": "none to weak",
+        "relief": "VERY HIGH — pops out strongly",
+        "cleavage": "poor",
+        "habit": "perfect euhedral prisms with pyramidal terminations — characteristic"
+      },
+      "XPL": {
+        "birefringence": "high (0.042–0.065)",
+        "interference_color": "high 2nd - 3rd order",
+        "special": "metamict zircon isotropic (black) — radiation destroyed crystal structure"
+      },
+      "distinguishing_features": [
+        "LOOK FOR RADIATION HALOS in surrounding biotite — tiny dark rings around tiny bright grain = zircon",
+        "Very high relief is instantly visible",
+        "Perfect prismatic habit when euhedral",
+        "Metamict (radiation-damaged) zircon goes isotropic — looks like garnet but tiny and in felsic minerals",
+        "Often included in biotite, hornblende, garnet"
+      ],
+      "deposit_types": ["granite", "pegmatite", "placer sand", "heavy mineral sand"],
+      "countries_of_interest": ["Australia", "South Africa", "Mozambique", "Russia"]
+    },
+
+    "allanite": {
+      "formula": "(Ca,Ce)(Al,Fe)3Si3O12(OH)",
+      "crystal_system": "monoclinic",
+      "group": "epidote group",
+      "economic_importance": "Light REE (La, Ce, Nd) carrier in granites and pegmatites. Often the dominant REE mineral in granitic rocks.",
+      "typical_size_um": "50–5000 (can be large in pegmatites)",
+      "PPL": {
+        "color": "brown to reddish-brown, sometimes nearly opaque",
+        "pleochroism": "STRONG — brown/yellow/red color change",
+        "relief": "HIGH",
+        "cleavage": "one imperfect",
+        "alteration": "often metamict (isotropic core) with crystalline epidote/zoisite rim",
+        "habit": "prismatic to irregular, often zoned"
+      },
+      "XPL": {
+        "birefringence": "low to moderate",
+        "interference_color": "anomalous (epidote-group) — often nearly opaque in thicker sections due to strong absorption",
+        "special": "metamict core goes isotropic; crystalline rim may show epidote-type anomalous colors"
+      },
+      "distinguishing_features": [
+        "Strong brown pleochroism + epidote-group anomalous colors + often partly opaque",
+        "Zoned texture: isotropic (metamict) core + crystalline epidote rim — very distinctive",
+        "Radiation halos in surrounding minerals (REE + Th content)",
+        "In granites: allanite is THE main REE host before hydrothermal alteration"
+      ],
+      "deposit_types": ["granite", "granodiorite", "pegmatite", "carbonatite"],
+      "confusion_minerals": ["epidote (no isotropic core, lower REE)", "titanite (different habit/color)"]
+    },
+
+    "apatite": {
+      "formula": "Ca5(PO4)3(F,Cl,OH)",
+      "crystal_system": "hexagonal",
+      "economic_importance": "REE concentrator (La, Ce), phosphate source. Carbonatite apatites contain 1-5% REE. Also U-Th-Pb and fission track geochronology.",
+      "typical_size_um": "10–500",
+      "PPL": {
+        "color": "colorless to pale green/yellow",
+        "pleochroism": "none to weak",
+        "relief": "moderate-high",
+        "cleavage": "poor basal",
+        "habit": "hexagonal prisms with flat terminations — very characteristic; also needles in biotite"
+      },
+      "XPL": {
+        "birefringence": "VERY LOW (0.001–0.006) — nearly extinct",
+        "interference_color": "nearly black/dark grey — almost indistinguishable from isotropic",
+        "extinction": "parallel"
+      },
+      "distinguishing_features": [
+        "High relief in PPL + nearly extinct in XPL = apatite (combination is nearly unique)",
+        "Hexagonal cross-sections when cut perpendicular to c-axis",
+        "As needles in biotite: tiny long transparent needles parallel to cleavage",
+        "In carbonatites: can be very REE-rich (carbonatite-apatite deposits)",
+        "Near-zero birefringence at standard thickness is key — don't mistake for isotropic"
+      ],
+      "deposit_types": ["carbonatite", "granite", "gabbro", "phosphorite (sedimentary)"],
+      "countries_of_interest": ["Brazil (Araxa)", "South Africa (Phalaborwa)", "Finland", "Russia"]
+    },
+
+    "titanite": {
+      "formula": "CaTiSiO5",
+      "crystal_system": "monoclinic",
+      "common_name": "sphene",
+      "economic_importance": "REE, U, Th concentrator. TiO2 indicator in oxidized magmas. Geochronology.",
+      "typical_size_um": "50–2000",
+      "PPL": {
+        "color": "yellow to brown, sometimes reddish",
+        "pleochroism": "weak to moderate",
+        "relief": "VERY HIGH",
+        "cleavage": "imperfect in two directions",
+        "habit": "WEDGE/DIAMOND SHAPE (envelope shape) — most distinctive habit of any accessory mineral",
+        "alteration": "ilmenite, leucoxene"
+      },
+      "XPL": {
+        "birefringence": "VERY HIGH (0.100–0.192)",
+        "interference_color": "high-order pastels/pearl",
+        "extinction": "inclined",
+        "special": "anomalous colors possible"
+      },
+      "distinguishing_features": [
+        "Wedge/envelope/diamond habit is virtually diagnostic — shape alone usually sufficient",
+        "Very high relief + warm yellow-brown PPL + very high birefringence",
+        "Common in oxidized granites, diorites as accessory",
+        "Indicator of oxygen-rich (oxidized) magmatic conditions"
+      ],
+      "deposit_types": ["granite", "diorite", "syenite", "skarn"],
+      "confusion_minerals": ["nothing really — habit is unique"]
+    },
+
+    "bastnäsite": {
+      "formula": "(REE)(CO3)F",
+      "crystal_system": "hexagonal",
+      "economic_importance": "PRIMARY global REE ore — Mountain Pass (USA), Bayan Obo (China). Light REE (La, Ce, Nd) source.",
+      "typical_size_um": "50–1000",
+      "PPL": {
+        "color": "yellow to yellow-brown",
+        "pleochroism": "weak",
+        "relief": "moderate-high",
+        "cleavage": "perfect basal",
+        "habit": "hexagonal tablets, prismatic"
+      },
+      "XPL": {
+        "birefringence": "moderate (0.020–0.040)",
+        "interference_color": "1st-2nd order",
+        "extinction": "parallel"
+      },
+      "distinguishing_features": [
+        "Yellow hexagonal grains in carbonatite or alkaline rock context",
+        "Presence of this mineral = potential economic REE deposit",
+        "EDS confirmation always needed",
+        "Associated with carbonatite assemblage (calcite + pyrochlore + magnetite)"
+      ],
+      "deposit_types": ["carbonatite", "alkaline igneous complex", "hydrothermal veins"],
+      "countries_of_interest": ["China (Bayan Obo — 40% world supply)", "USA (Mountain Pass)", "South Africa", "Kenya (Mrima Hill)"]
+    },
+
+    "pyrochlore": {
+      "formula": "(Ca,Na)2Nb2O6(OH,F)",
+      "crystal_system": "cubic (isometric)",
+      "economic_importance": "PRIMARY Nb ore. Also contains Ta, REEs, U, Th. Nb critical for high-strength steel and superconductors. Often contains significant REE.",
+      "typical_size_um": "50–500",
+      "PPL": {
+        "color": "yellow-brown to orange-brown",
+        "pleochroism": "none (isotropic)",
+        "relief": "HIGH",
+        "cleavage": "poor octahedral",
+        "alteration": "metamict (very common — U/Th-bearing)",
+        "habit": "octahedral, irregular"
+      },
+      "XPL": {
+        "birefringence": "ZERO when metamict — isotropic",
+        "interference_color": "black (isotropic) when metamict, weak birefringence when fresh",
+        "special": "almost always metamict in natural samples"
+      },
+      "distinguishing_features": [
+        "Brown isotropic grain in carbonatite context = pyrochlore until proven otherwise",
+        "Very high relief",
+        "Almost universally metamict (isotropic in XPL)",
+        "Occurrence: carbonatites exclusively in most cases"
+      ],
+      "deposit_types": ["carbonatite", "alkaline syenite"],
+      "countries_of_interest": ["Brazil (Araxá, Catalão — global Nb dominance)", "Canada", "DRC"]
+    }
+  },
+
+  "identification_decision_tree": {
+    "step_1_PPL_colored": {
+      "yes": ["biotite", "hornblende", "augite", "tourmaline", "allanite", "titanite"],
+      "no": "go to step 2"
+    },
+    "step_2_XPL_isotropic": {
+      "yes": ["garnet", "spinel", "pyrochlore (metamict)", "volcanic glass"],
+      "no": "go to step 3"
+    },
+    "step_3_birefringence_level": {
+      "very_low_almost_extinct": ["apatite"],
+      "low_grey_white": ["quartz", "k_feldspar", "plagioclase"],
+      "moderate": ["hornblende", "augite", "epidote", "biotite"],
+      "high": ["muscovite", "olivine", "zircon", "monazite"],
+      "very_high_pastels": ["calcite", "dolomite", "titanite"]
+    },
+    "step_4_split_low_birefringence": {
+      "polysynthetic_twinning": "plagioclase",
+      "carlsbad_or_grid_twinning": "k_feldspar",
+      "no_twinning_no_alteration": "quartz",
+      "no_twinning_with_alteration": "k_feldspar"
+    },
+    "step_5_split_colored_moderate": {
+      "cleavage_60_120": "hornblende",
+      "cleavage_90": "augite",
+      "one_cleavage_strong_pleochroism_brown": "biotite"
+    }
+  }
+}
